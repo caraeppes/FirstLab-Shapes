@@ -99,6 +99,11 @@ public class Triangle
         draw();
     }
 
+    public void setLocation(int x, int y){
+        xPosition = x;
+        yPosition = y;
+    }
+    
     /**
      * Slowly move the triangle horizontally by 'distance' pixels.
      */

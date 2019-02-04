@@ -22,8 +22,8 @@ public class Circle
     public Circle()
     {
         diameter = 30;
-        xPosition = 20;
-        yPosition = 60;
+        xPosition = 0;
+        yPosition = 0;
         color = "blue";
         isVisible = false;
     }
@@ -46,6 +46,11 @@ public class Circle
         isVisible = false;
     }
 
+    public void setLocation(int x, int y){
+        xPosition = x;
+        yPosition = y;
+    }
+    
     /**
      * Move the circle a few pixels to the right.
      */
